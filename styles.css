@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(53, 53, 52);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+h1 {
+  margin-top: 10px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.grub1 > input {
+  border-radius: 10px 0 0 10px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  font-size: 22px;
+  padding-left: 15px;
+}
+
+.grub1 > button {
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  height: 40px;
+  width: 70px;
+  font-size: 22px;
+  background-color: rgb(201, 201, 201);
+}
+.grub1 {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.anaGrub {
+  padding: 20px;
+  background-color: rgb(171, 171, 171);
+  width: 35%;
+  border-radius: 30px;
+  list-style: none;
+  box-shadow: -10px 10px 3px black;
+  margin: 15px;
+}
+
+.grub2 > ul {
+  list-style: none;
+}
+.grub2 > ul > li {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+.bi-trash {
+  margin: 5px;
+  display: inline-block;
+  margin-left: 10px;
+}
